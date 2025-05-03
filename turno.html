@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/turno.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <title>NG Turnos</title>
+</head>
+<body>
+    
+    <nav class="nav">
+        <img class="icon-img" src="img/NG_Shine_56x56.png" alt="" srcset="">
+        <ul>
+            <a class="nav__items" href="index.html" >Home</a>
+            <a class="nav__items">Productos</a>
+            <a class="nav__items" href="clientes.html" >Clientes</a>
+            <a class="nav__items">Turnos</a>
+            <a class="nav__items">Registrate</a>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="div-conteiner" >
+            <div class="input-conteiner">
+                <p class="p-title" >Nombre</p>
+                <input id="name" class="input-main" type="text" placeholder="Ej: Steve Jonson">
+                <p class="p-title" >Vehiculo</p>
+                <input id="auto" class="input-main" type="text" placeholder="Ej: BMW E36" >
+                <p class="p-title" >Color</p>
+                <input id="name" class="input-main" type="text" placeholder="Ej: Rojo">
+                <p class="p-title" >E-mail</p >
+                <input id="email" class="input-main" type="email" placeholder="ejemplo@gmail.com" >
+                <p class="p-title" >Telefono</p>
+                <input id="numero" class="input-main" type="number" placeholder="+54 2613845928" >
+                <p class="p-title" >Fecha</p>
+                <input class="input-main" type="date">
+                <p class="p-title" >¿Que servicio prefieres?</p>
+                <select  class="input-main" name="servicio" id="servicio" placeholder="Selecione una opción" >
+                    <option value="">Lavado Clasico</option>
+                    <option value="">Limpieza de interiores</option>
+                    <option value="">Acondicionamiento de motor</option>
+                    <option value="">Lavado completo</option>
+                    <option value="">Abrillantado</option>
+                    <option value="">Tratamiento Acrilico</option>
+                </select>
+
+            </div>
+
+            <div class="buttons" >
+                <button class="button-reset" >Resetear</button>
+                <button class="button-enviar" >Enviar</button> 
+            </div>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="redes">
+            <i class="bi bi-facebook"></i>
+            <i class="bi bi-instagram"></i>
+            <i class="bi bi-tiktok"></i>
+            <p class="footer-p">@NG Shine</p>
+        </div>
+        <div class="number" >
+            <i class="bi bi-whatsapp"></i>
+            <p class="footer-p" >2612196079</p>
+        </div>
+    </footer>
+
+</body>
+</html>

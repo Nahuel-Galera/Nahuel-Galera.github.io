@@ -1,0 +1,197 @@
+body{
+    box-sizing: border-box;
+    color: aliceblue;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+/*HEADER*/
+
+header{
+    height: 100vh;
+    box-sizing: border-box;
+    background-image: url(/img/f1ccfb39-ce02-4091-ab51-df731fe03ecf.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.conteiner-head{
+    margin: auto;
+    text-align: center;
+    font-size: 37px;
+}
+.img-header{
+    max-width: 100%;
+    height: auto;
+    margin: auto;
+}
+.header-p{
+    margin-top: 0;
+    font-size: 2rem;
+}
+
+.header-over{
+    background-color:rgba(0, 0, 0, 0.598) ;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+/*NAVAR*/
+
+nav{
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 0 25px #0006;
+    font-size: 1.2rem;
+}
+ul{
+    margin: auto;
+    padding: 0;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.icon-img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: solid 1.5px rgb(0, 0, 0);
+    margin: auto;
+    margin-left: 8%;
+    margin-top: 8PX;
+    margin-bottom: 8PX;
+}
+.nav__items{
+    display: inline-block;
+    list-style: none;
+    text-decoration: none;
+    padding: 10px;
+    transition: background-color 0.3s, border-radius 0.24s , border 0.24s;
+    color:rgb(0, 0, 0);
+
+}
+.nav__items:hover{
+    background-color: rgba(137, 43, 226, 0.6);
+    border-radius: 17px;
+    color: white;
+}
+
+/*Main Secttion*/
+
+main{
+    background-color: rgb(94, 47, 151);
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.main-conteiner{
+    width: 85%;
+    height: 93%;
+    background-color:rgb(94, 47, 151);
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+h2{
+    text-align: center;
+    margin-top: 0;
+    padding-top: 25px;
+}
+
+
+/*Card Secttion*/
+
+.card{
+    background-color: rgb(224, 224, 224);
+    color: black;
+    margin:20px;
+    min-width:250px;
+    max-width: 335px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 25px;
+    box-shadow: 0 0 40px 0 #0007;
+    
+}
+
+h3{
+    border-top: 1px solid grey;
+    padding-top: 10px;
+}
+
+.img-card{
+    max-width: 45%;
+    height: auto;
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 3%;
+    box-shadow: 0 0 40px 0 #0007;
+}
+.button-info{
+    margin: auto;
+    margin-bottom: 5%;
+    width: 25%;
+    padding: 5px 10px;
+    background-color:rgb(69, 17, 132) ;
+    color: white;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.title-card{
+    margin: 10px 20px;
+}
+.p-card{
+    margin: 10px 20px;
+
+}
+.price{
+    margin: 10px 20px;
+    color: blueviolet;
+    border-top: 1px solid grey;
+    padding-top: 10px;
+    text-shadow: 0 0 5px blueviolet;
+}
+
+/*Footer Secttion*/
+
+footer{
+    height: 7vh;
+    background-color: rgb(205, 152, 251);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content:center;
+    border-top: 2px solid rgb(0, 0, 0);
+}
+
+.footer-p{
+    margin-bottom: 0 ;
+}
+
+.redes,.number{
+    display: flex;
+}
+.number{
+    margin-left: 20px;
+}
+
+i{
+    font-size: 20px;
+    margin: 5px;
+    margin-top: 13px;
+}

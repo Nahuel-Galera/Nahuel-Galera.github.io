@@ -1,0 +1,130 @@
+body{
+    box-sizing: border-box;
+    color: aliceblue;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+/*NAV Secction*/
+
+nav{
+    background-color: rgb(255, 255, 255);
+    color:rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    box-shadow: 0 0 25px #0006;
+    z-index: 2;
+    font-size: 1.2rem;
+}
+ul{
+    margin: auto;
+    padding: 0;
+    width: 60%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    
+}
+.icon-img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    border: solid 1.5px rgb(0, 0, 0);
+    margin: auto;
+    margin-left: 8%;
+    margin-top: 8PX;
+    margin-bottom: 8PX;
+}
+.nav__items{
+    display: inline-block;
+    list-style: none;
+    padding: 10px;
+    transition: background-color 0.3s, border-radius 0.24s , border 0.24s;
+
+}
+.nav__items:hover{
+    background-color: rgba(137, 43, 226, 0.904);
+    border-radius: 17px;
+    color: rgb(255, 255, 255);
+}
+
+/*Main Secction*/
+
+main{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.galery-content{
+    padding: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
+    grid-auto-rows: 300px; 
+    grid-auto-flow: dense;
+    grid-gap: 15px;
+    
+}
+
+.galery-item{
+    box-shadow: 0 0 12px 0 #0007;
+    opacity: 0.8;
+    transition: .5s ease;
+    border-radius: 20px;
+}
+
+.galery-item:hover{
+    opacity: 1.2;
+}
+
+.galery-item:nth-child(5n+1){  
+    grid-row-start: span 2;
+}
+.galery-item:nth-child(4n+1){  
+    grid-column-start: span 2;
+    
+}
+
+
+
+.img-galery{
+    width: 100%; 
+    height: 100%;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+/*Footer Secction*/
+
+footer{
+    height: 7vh;
+    background-color: rgb(205, 152, 251);
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content:center;
+    border-top: 2px solid rgb(0, 0, 0);
+    
+}
+
+.footer-p{
+    margin-bottom: 0 ;
+}
+
+.redes,.number{
+    display: flex;
+}
+.number{
+    margin-left: 20px;
+}
+
+i{
+    font-size: 20px;
+    margin: 5px;
+    margin-top: 13px;
+}
